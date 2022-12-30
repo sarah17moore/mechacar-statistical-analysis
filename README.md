@@ -45,4 +45,14 @@ After performing t-tests to determine if the PSI across all manufacturing lots i
 ![T-test for PSI Lot 3](Resources/t.test_lot_3.png)
 
 ## Study Design: MechaCar vs Competition
-This is where the study for part 4 will go
+We could create a statistical study to quantify how the MechaCar performs against other competative companies. Some example of metrics that a customer would be interested in: specifications (like number of doors, seats, electric features, engine type), cost, size, fuel efficiency, color, horse power, maintenance cost, safety rating, etc. 
+
+When considering performance, we could approach the question by choosing to measure the visual and beautiful parts of a car alongside with the functional and necessary parts in order to get a customers perspective reflected in our model. I would suggest testing cost of the car, fuel efficiency, and safety rating as measurements. Consumers often want the best fuel efficiency, best safety rating, and lowest cost they can find, although individual values may vary. Each of these metrics will be one quantitative value per car which will make measurement meaningful. 
+
+If we could collect data for at least 30 MechaCar cars and 30 comparable cars from a competative company, we could perform a statistical test to see if the metrics vary, on average, between the two companies.  
+
+Since we would be comparing metric means from one population against metric means from another population, we would need to perform a two-sample t-test. 
+
+Suggested Null Hypothesis: MechaCar metrics are equal to another competative company's metrics
+Suggested Alternate Hypothesis: MechaCar metrics are not equal to another competative company's metrics
+
