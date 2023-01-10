@@ -5,10 +5,10 @@ A classwork example in which R / R Studio is used to review production data for 
 ---
 
 # Overview of Project
-This is where the overview of the project will go
+The MechaCar, "a prototype car of the AutoRUs company", team needed assistance analyzing historical data to assist with decision making in the present and future. Production troubles are currently causing a bottleneck in the manufacturing team's efficiency. With the help of data, we will be able to identify seveal weak points in production in hopes of upping efficiency to meet quotas. 
 
 ## Purpose
-This is where the purpose will go
+I will extract, transform, and load (ETL) data, visualize the data, and analyze the data using R to create helpful insights for the MechaCar company. I will also suggest strategies to keep in mind for a revised study design. 
 
 ---
 # Summary
